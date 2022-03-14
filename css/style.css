@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,ol{
+    list-style: none;
+    padding-left: 0;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+/* ==========================================
+        Navbar Part Start
+============================================= */
+
+nav{
+    background: #EEEDDE;
+}
+
+nav ul li{
+    margin-left: 100px;
+    position: relative;
+}
+
+nav ul li a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #203239 !important;
+    transition: .4s;
+    position: relative;
+}
+
+nav ul li a i{
+    transition: .4s;
+}
+
+nav ul li a:after{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 23px;
+    height: 3px;
+    background: #F6762E;
+    border-radius: 10px;
+    content: "";
+    opacity: 0;
+    transition: .4s;
+}
+
+nav ul li .dropdown{
+    position: absolute;
+    top: 54px;
+    left: 0;
+    background: #EEEDDE;
+    transform: rotateX(90deg);
+    transform-origin: top;
+    transition: .4s;
+}
+
+
+
+nav ul li .dropdown ul li{
+    margin-left: 0;
+    border-bottom: 1px solid #F6762E;
+    padding: 10px 20px;
+}
+
+
+
+nav ul li a:hover{
+    font-weight: 600;
+}
+nav ul li a:hover i{
+    transform: rotate(177deg)
+}
+
+nav ul li a:hover:after{
+    opacity: 1;
+}
+
+nav ul li:hover .dropdown{
+    transform: rotateX(0deg);
+}
+/* ==========================================
+        Navbar Part End
+============================================= */
+
