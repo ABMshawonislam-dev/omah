@@ -369,4 +369,66 @@ box-shadow: 0px 6px 13px 5px rgba(0,0,0,0.1);
 /* ==========================================
         Residen Part End
 ============================================= */
+/* ==========================================
+        Kota Part Start
+============================================= */
+#kota-part{
+    margin-top: 68px;
+}
+
+#kota-part .title p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #F6762E;
+}
+
+#kota-part .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #203239;
+}
+
+#kota-part .icons i{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #D6D5C7;
+    border-radius: 5px;
+    color: #F6762E;
+    font-size: 13px;
+    margin-right: 24px;
+    margin-top: 37px;
+    cursor: pointer;
+}
+
+#kota-part .icons i:hover{
+    background: #D6D5C7;
+    opacity: .3;
+}
+
+#kota-part img{
+    width: 100%;
+    margin-top: 64px;
+}
+
+#kota-part h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    margin: 25px 0;
+}
+
+#kota-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+/* ==========================================
+        Kota Part End
+============================================= */
+
+
 
